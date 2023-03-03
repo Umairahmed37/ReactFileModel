@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.filter-white{
+  /* fill: white; */
+  filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(83deg) brightness(108%) contrast(101%);
+}
+ 
+
+.filter-gray{
+  filter: invert(12%) sepia(8%) saturate(950%) hue-rotate(164deg) brightness(96%) contrast(96%);
+
 }
